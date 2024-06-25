@@ -1,0 +1,52 @@
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+}
+
+.experience-item {
+  width: 100%;
+  margin-bottom: 20px; /* Adjust as needed */
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  text-align: right;
+  margin-right: auto;
+  width: 45%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align text to the right */
+}
+
+.right-column {
+  text-align: left;
+  margin-left: auto;
+  width: 45%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the left */
+}
+
+.company-position,
+.company-name,
+.date {
+  display: block;
+}
+
+.company-position,
+.company-name {
+  font-weight: bold;
+}
+
+.company-name {
+  color: #3498db;
+}
