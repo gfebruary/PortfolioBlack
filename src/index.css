@@ -1,9 +1,11 @@
+/* MenuOverlay.css */
+
+/* General styles */
 body,
 html {
   margin: 0;
   padding: 0;
   background-color: black;
-  /* overflow: hidden; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -50,31 +52,28 @@ html {
   z-index: 5;
   width: 50vw;
   flex-direction: column;
-
   color: white;
 }
 
 .main-content-1 {
   text-align: center;
   letter-spacing: 0.1rem;
-
   opacity: 0;
   z-index: 5;
   color: white;
-
   animation: fadeInZoomIn 2s forwards;
 }
 
 .main-content-2 {
-  border-top: 1px solid#3498db;
+  border-top: 1px solid #3498db;
   letter-spacing: 0.1rem;
   padding-top: 2rem;
   text-align: center;
   opacity: 0;
   animation: fadeInMoveUp 1s 1.5s forwards;
-
   color: hsl(0, 0%, 60%);
 }
+
 .main-content-3 {
   text-align: center;
   letter-spacing: 0.1rem;
@@ -88,7 +87,6 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-
   backdrop-filter: blur(10px);
   display: flex;
   z-index: 6;
@@ -119,8 +117,6 @@ html {
 }
 
 .menu-item:hover {
-  /* color: hsl(202, 77%, 68%);
-  font-weight: 400; */
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3498db, 0 0 40px #3498db,
     0 0 50px #3498db, 0 0 60px #3498db;
 }
@@ -148,7 +144,7 @@ html {
 
 .section-text {
   font-size: medium;
-  border-top: 1px solid#3498db;
+  border-top: 1px solid #3498db;
   padding-top: 2rem;
   color: hsl(0, 0%, 60%);
   letter-spacing: 0;
@@ -228,25 +224,15 @@ html {
   border-radius: 10px;
 }
 
-/* .about-text {
-  display: flex;
-  justify-content: center;
-} */
-
 .about-content {
   display: flex;
-
   align-items: flex-start;
 }
+
 .about-description p {
   margin: 0;
   padding: 5px 0;
 }
-
-/* .about-text p {
-  margin: 0;
-  padding: 0 1rem;
-} */
 
 @media screen and (max-width: 660px) {
   .main-content-container {
@@ -258,7 +244,13 @@ html {
     margin-bottom: 1rem;
     align-self: center;
   }
-
+  .menu-overlay {
+    height: 100%;
+    backdrop-filter: none;
+    display: flex; /* Ensures items are aligned at the top */
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: flex-start; /* Aligns items to the top */
+  }
   .about-content {
     flex-direction: column;
   }
@@ -267,14 +259,76 @@ html {
     padding: 0 1rem;
   }
 
-  /* .head-shot {
-    align-self: center;
-    width: 50vw;
-    height: auto;
-    padding-bottom: 2rem;
-  } */
-
   .menu-item-center {
     display: none;
   }
+
+  .menu-item-left {
+    text-align: center;
+  }
+
+  .menu-item-right {
+    text-align: center;
+  }
+}
+
+/* Styles for the burger menu */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  backdrop-filter: blur(10px);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  max-height: none !important;
+}
+
+.bm-item {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #f0f0f0;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }
