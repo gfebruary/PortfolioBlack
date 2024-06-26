@@ -75,10 +75,9 @@ const MenuOverlay = () => {
           </a>
           <a
             className="menu-item menu-item-right"
-            // href="/path-to-cv.pdf"
-            // target="_blank"
-            // rel="noopener noreferrer"
-          >
+            href="https://flowcv.com/resume/oi25svuvv0"
+            target="_blank"
+            rel="noopener noreferrer">
             CV
           </a>
         </Menu>
@@ -111,8 +110,9 @@ const MenuOverlay = () => {
           </li>
           <li className="menu-item menu-item-right">
             <a
-            // href="/path-to-cv.pdf" target="_blank" rel="noopener noreferrer"
-            >
+              href="https://flowcv.com/resume/oi25svuvv0"
+              target="_blank"
+              rel="noopener noreferrer">
               CV
             </a>
           </li>

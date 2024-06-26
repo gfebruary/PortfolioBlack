@@ -115,6 +115,8 @@ html {
 .menu-item-right {
   flex: 1;
   text-align: right;
+  text-decoration: none;
+  color: inherit;
 }
 
 .menu-item-center {
