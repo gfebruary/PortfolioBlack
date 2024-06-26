@@ -23,8 +23,8 @@ const About = () => {
               within budget.
             </p>
             <p>
-              Currently expanding my skill set to transition into software
-              development.
+              Currently expanding my skill set to follow my passion and
+              transition into software development.
             </p>
           </div>
         </div>
