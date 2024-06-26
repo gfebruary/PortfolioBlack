@@ -1,0 +1,47 @@
+.project {
+  margin-bottom: 3rem;
+}
+
+.project-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-image {
+  width: 150px;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.project-image:hover {
+  border-color: #3498db;
+}
+
+.project-description {
+  flex: 1;
+}
+
+.project-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-tech {
+  font-style: italic;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .project-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-image {
+    margin-bottom: 1rem;
+  }
+}

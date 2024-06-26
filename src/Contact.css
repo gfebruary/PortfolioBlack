@@ -1,0 +1,14 @@
+.contact-icon {
+  width: 40px;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

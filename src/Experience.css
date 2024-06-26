@@ -8,12 +8,12 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1200px;
 }
 
 .experience-item {
   width: 100%;
-  margin-bottom: 20px; /* Adjust as needed */
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -21,19 +21,19 @@
 .left-column {
   text-align: right;
   margin-right: auto;
-  width: 45%; /* Adjust width as needed */
+  width: 45%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Align text to the right */
+  align-items: flex-end;
 }
 
 .right-column {
   text-align: left;
   margin-left: auto;
-  width: 45%; /* Adjust width as needed */
+  width: 45%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align text to the left */
+  align-items: flex-start;
 }
 
 .company-position,
@@ -49,4 +49,18 @@
 
 .company-name {
   color: #3498db;
+}
+
+.resume-section {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.resume-item {
+  margin-bottom: 15px;
+}
+
+.date {
+  font-style: italic;
+  color: #777;
 }

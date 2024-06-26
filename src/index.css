@@ -29,20 +29,6 @@ html {
   padding-top: 100px;
 }
 
-.resume-section {
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.resume-item {
-  margin-bottom: 15px;
-}
-
-.date {
-  font-style: italic;
-  color: #777;
-}
-
 .main-content-container {
   position: absolute;
   top: 35%;

@@ -1,6 +1,8 @@
 import Experience from "./Experience";
 import About from "./About";
 import Footer from "./Footer";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function PageContent() {
   return (
@@ -13,22 +15,8 @@ function PageContent() {
         About
         <About />
         <Experience />
-        <div id="projects" className="section section-heading">
-          Projects
-          <p className="section-text">
-            Aut sed, itaque temporibus deleniti placeat nihil sequi dolorum
-            incidunt! Fuga quidem illum adipisci nulla id reiciendis tempore
-            commodi sed distinctio ipsam!
-          </p>
-        </div>
-        <div id="contact" className="section section-heading">
-          Contact
-          <p className="section-text">
-            Aut sed, itaque temporibus deleniti placeat nihil sequi dolorum
-            incidunt! Fuga quidem illum adipisci nulla id reiciendis tempore
-            commodi sed distinctio ipsam!
-          </p>
-        </div>
+        <Projects />
+        <Contact />
       </div>
       <Footer />
     </div>
