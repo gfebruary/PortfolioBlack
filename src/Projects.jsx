@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import MovieReviewThumb from "./assets/MovieReviewThumb.jpg";
+import PokemonThumb from "./assets/PokemonThumb.jpg";
 import HackerThumb from "./assets/HackerThumb.jpg";
 import Placeholder from "./assets/Placeholder.png";
 import ToDoThumb from "./assets/ToDoThumb.jpg";
@@ -11,6 +12,30 @@ const Projects = () => {
       Projects
       <div className="section-text">
         <div className="project-wrapper">
+          <div className="project">
+            <div className="project-content">
+              <a
+                href="https://wd51-pokebattle.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-image-link">
+                <img
+                  src={PokemonThumb}
+                  alt="Pokemon Battle Page"
+                  className="project-image"
+                />
+              </a>
+              <div className="project-description">
+                <h3 className="project-title">
+                  Simple Pokemon based battle game - Group Project
+                </h3>
+                <p className="project-tech">
+                  ReactJS, Render, Tailwind, MongoDB
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="project">
             <div className="project-content">
               <a
