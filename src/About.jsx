@@ -10,21 +10,26 @@ const About = () => {
           <img className="head-shot" src={myPicture} />
           <div className="about-description">
             <p>
-              Results-oriented IT professional with 15+ years of experience
-              across diverse industries including IT consulting.
+              As a seasoned IT Consultant with a robust background in IT project management, data processing, digital solutions, 
+              and international supply chain management, I bring over a decade of expertise in optimizing processes and enhancing 
+              customer experience across various sectors. 
+              </p>
+            <p>
+              My experience spans high-stakes IT consulting, lifecycle management, 
+              purchasing, and data-driven projects, equipping me with a holistic understanding of how 
+              technology and data can drive business success.
             </p>
             <p>
-              Leveraging a degree in Digital Media Design, I bring a unique
-              perspective to technical challenges.
-            </p>
+            My ability to adapt quickly and my commitment to continuous learning are underscored by my certifications and training. 
+                </p>
             <p>
-              Proven ability to manage and execute complex projects, effectively
-              communicate with stakeholders, and deliver results on time and
-              within budget.
-            </p>
+            I hold a B.A. in Digital Media Design with a focus on game and animation, and have completed ITIL Foundation certification, web and app development bootcamps, 
+              and specialized training in software and content management systems. My language skills include native English proficiency and strong German capabilities, 
+              enabling me to work effectively in diverse and multilingual teams.
+          </p>
             <p>
-              Currently expanding my skill set to follow my passion and
-              transition into software development.
+Driven by a passion for innovation, customer success, and operational excellence, 
+              I am eager to contribute to forward-thinking projects where my cross-disciplinary expertise and proactive mindset can make a tangible impact.
             </p>
           </div>
         </div>
